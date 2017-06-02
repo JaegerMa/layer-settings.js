@@ -1,0 +1,31 @@
+{
+  "name": "layer-settings",
+  "version": "1.0.0",
+  "description": "Slim Settings-Manager on base of layers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaegerMa/layer-settings.js.git"
+  },
+  "keywords": [
+    "settings",
+    "layer",
+    "layers",
+    "preferences"
+  ],
+  "author": "JaegerMa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaegerMa/layer-settings.js/issues"
+  },
+  "homepage": "https://github.com/JaegerMa/layer-settings.js#readme",
+  "dependencies": {
+    "is-accessible": "^1.0.1",
+    "prm-mkdirp": "^1.0.0",
+    "simple-merge": "^1.0.0",
+    "then-fs": "^2.0.0"
+  }
+}
