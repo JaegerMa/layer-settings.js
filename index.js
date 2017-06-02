@@ -59,7 +59,7 @@ class Settings
 			if(!layerValues || typeof(layerValues) !== 'object' || Array.isArray(layerValues))
 				continue;
 			
-			merge(values, layerValues);
+			values = merge(values, layerValues);
 		}
 		Settings.normalizeObject(values);
 
@@ -78,7 +78,7 @@ class Settings
 			if(!layerValues || typeof(layerValues) !== 'object' || Array.isArray(layerValues))
 				continue;
 			
-			merge(values, layerValues);
+			values = merge(values, layerValues);
 		}
 		Settings.normalizeObject(values);
 
