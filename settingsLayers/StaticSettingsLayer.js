@@ -6,6 +6,7 @@ class StaticSettingsLayer extends SettingsLayers
 {
 	constructor(values)
 	{
+		super();
 		this.values = values;
 	}
 

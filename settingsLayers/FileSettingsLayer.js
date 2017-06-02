@@ -9,6 +9,7 @@ class StaticSettingsLayer extends SettingsLayers
 {
 	constructor(path)
 	{
+		super();
 		this.path = path;
 	}
 
