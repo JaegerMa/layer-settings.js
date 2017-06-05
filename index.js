@@ -86,7 +86,7 @@ class Settings
 		return values;
 	}
 
-	async save(path)
+	async save(file)
 	{
 		let values = await this.getValues();
 		let dir = path.dirname(Settings.configFilePath);
@@ -94,17 +94,17 @@ class Settings
 		await mkdirp(dir);
 		let fileContent = JSON.stringify(values, null, '\t');
 
-		return fs.writeFile(path, fileContent);
+		return fs.writeFile(file, fileContent);
 	}
-	saveSync(path)
+	saveSync(file)
 	{
 		let values = this.getValuesSync();
-		let dir = path.dirname(path);
+		let dir = path.dirname(file);
 
 		mkdirp.sync(dir);
 		let fileContent = JSON.stringify(values, null, '\t');
 
-		return fs.writeFileSync(path, fileContent);
+		return fs.writeFileSync(file, fileContent);
 	}
 
 
