@@ -121,7 +121,7 @@ class Settings
 				if(!val || Array.isArray(val))
 					return;
 				
-				normalizeObject(val);
+				Settings.normalizeObject(val);
 				return;
 			}
 

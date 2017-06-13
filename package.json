@@ -1,6 +1,6 @@
 {
   "name": "layer-settings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Slim Settings-Manager on base of layers",
   "main": "index.js",
   "scripts": {
