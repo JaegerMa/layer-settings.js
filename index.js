@@ -44,7 +44,7 @@ class Settings
 
 	clearCache()
 	{
-		this.values = null;
+		this.values = undefined;
 	}
 
 	async getValues()
