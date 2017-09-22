@@ -90,6 +90,11 @@ class Settings
 		return this.values;
 	}
 
+	isLoaded()
+	{
+		return this.values !== undefined;
+	}
+
 	async save(file)
 	{
 		let values = await this.getValues();
