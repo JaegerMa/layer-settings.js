@@ -85,6 +85,10 @@ class Settings
 		this.values = values;
 		return values;
 	}
+	getRawValues()
+	{
+		return this.values;
+	}
 
 	async save(file)
 	{

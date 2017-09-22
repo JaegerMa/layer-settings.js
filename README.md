@@ -150,6 +150,10 @@ Reads/Processes settings values sync or serves them from cache
 #### returns
 - `settingsValues: object`
 
+### `Settings.getRawValues()`
+Returns the current loaded settings values, no matter whether they are loaded or not
+#### returns
+- `settingsValues: object`
 ### `Settings.save(path)`
 Saves settings values as JSON file async
 #### arguments
